@@ -11,6 +11,7 @@ alias ga="git add"
 alias gaa="git add ."
 alias gaac="git add . && git commit -m"
 alias gcm="git commit -m"
+alias gpo="git push -u origin HEAD"
 
 # GitHub CLI
 alias ghprco="gh pr checkout"
@@ -29,7 +30,7 @@ alias updateowners="~/repos/github/bin/generate-service-files.rb"
 alias updateapi="~/repos/github/bin/openapi generate_root_files"
 alias newop="~/repos/github/bin/openapi create operation"
 
-alias prettier="npx prettier --write"
+alias pret="npx prettier --write"
 alias lint="npx eslint --fix"
 
 alias cdgh="cd ~/repos/github"
@@ -53,3 +54,5 @@ echo -ne "\033]0;${PWD##*/}\007"
 
 export PATH=/Users/skedwards88/repos/bin:$PATH
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+export EDITOR="code -w"
