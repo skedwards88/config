@@ -1,3 +1,4 @@
+eval "$(nodenv init -)"
 
 # Git
 alias gst="git status"
@@ -12,6 +13,7 @@ alias gaa="git add ."
 alias gaac="git add . && git commit -m"
 alias gcm="git commit -m"
 alias gpo="git push -u origin HEAD"
+alias c="code ."
 
 # GitHub CLI
 alias ghprco="gh pr checkout"
@@ -54,5 +56,10 @@ echo -ne "\033]0;${PWD##*/}\007"
 
 export PATH=/Users/skedwards88/repos/bin:$PATH
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="/usr/local/lib/ruby/gems:$PATH"
+
+export PATH=$PATH:/usr/local/lib/ruby/gems
 
 export EDITOR="code -w"
+
+export TOKEN=''
