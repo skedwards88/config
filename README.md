@@ -10,4 +10,4 @@ To use: Add this file to `.git/hooks` in your project. Run `chmod +x .git/hooks/
 
 ## .zshrc
 
-Aliases to type and remember less. 
+Aliases to type and remember less.
